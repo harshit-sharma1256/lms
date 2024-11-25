@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.harshit
+testFramework: junit
+sourceLanguage: java
+buildTool: gradle
+features: [annotation-api, app-name, data, data-jdbc, gradle, hibernate-jpa, http-client, http-session, jackson-databind, java, java-application, jdbc-hikari, junit, micronaut-build, micronaut-validation, netty-server, postgres, readme, shade, slf4j-simple, test-resources, yaml]

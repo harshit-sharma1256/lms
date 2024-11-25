@@ -1,0 +1,40 @@
+micronaut:
+  application:
+    name: library
+
+  router:
+    static-resources:
+      default:
+        enabled: true
+        mapping: /**
+      swagger:
+        paths: classpath:META-INF/swagger
+        mapping: /swagger/**
+      swagger-ui:
+        paths: classpath:META-INF/swagger/views/swagger-ui
+        mapping: /swagger-ui/**
+
+  session:
+    http:
+      cookie: true
+      header: true
+
+datasources:
+  default:
+    driver-class-name: org.postgresql.Driver
+    db-type: postgres
+    dialect: POSTGRES
+    url: jdbc:postgresql://0.0.0.0:5432/postgre
+    username: postgres
+    password: mysecretpassword
+
+jpa:
+  default:
+    entity-scan:
+      packages:
+        - com.harshit.entity
+    properties:
+      hibernate:
+        hbm2ddl: { auto: update }
+
+logger: { levels: { io.micronaut.context.condition: TRACE } }
