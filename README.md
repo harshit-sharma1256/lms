@@ -82,7 +82,7 @@ src
 ### 1. Clone the Repository
 
 ```bash
-git clone https://git.target.com/Z00FB39/library_management_system_3.git
+git clone https://github.com/harshit-sharma1256/lms.git
 ```
 
 ### 2. Set Up PostgreSQL with Docker
