@@ -12,7 +12,8 @@ This Library Management System is a RESTful application built using Java 17 and 
 
 
 ## Endpoints
-<img width="1792" alt="Screenshot 2024-11-13 at 10 56 28 AM" src="https://git.target.com/Z00FB39/library_management_system_3/assets/25842/4a4ad20d-4fc5-4a4a-8a9f-bb63f200d9a6">
+<img width="837" alt="Screenshot 2024-11-26 at 1 21 29 AM" src="https://github.com/user-attachments/assets/16206f1f-9d0a-4dfd-8524-a8d2ded16812">
+
 
 
 
